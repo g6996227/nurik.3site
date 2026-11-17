@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 6rem;
+    width: 100%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Расстояние между иконкой и текстом "nurik.3" */
+}
+
+/* Навигация со ссылками */
+.header nav {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: var(--primary);
+}
